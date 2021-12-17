@@ -12,3 +12,12 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+const resultEl = document.getElementById("password")
+const lengthEl = document.getElementById("password")
+const resultEl = document.getElementById("password")
+const resultEl = document.getElementById("password")
+const resultEl = document.getElementById("password")
+const resultEl = document.getElementById("password")
+const resultEl = document.getElementById("password")
+const resultEl = document.getElementById("password")
