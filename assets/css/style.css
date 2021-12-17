@@ -8,6 +8,7 @@
 
 :root {
     --color-accent: #1DA1F2;
+    --color-dark: black;
 }
 
 html,
@@ -20,7 +21,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: var(--color-accent);
+  background-color: var(--color-dark);
 }
 
 .wrapper {
@@ -37,11 +38,15 @@ header {
 }
 
 header h1 {
-    color: black;
+    color: var(--color-accent);
+}
+
+div h2 {
+    text-align: center;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--color-accent);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
