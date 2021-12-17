@@ -109,6 +109,15 @@ button[disabled] {
   float: right;
 }
 
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 450px;
+    font-weight: bold;
+    
+}
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
